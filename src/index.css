@@ -7,7 +7,7 @@
 }
 
 body{
-  pading: 0;
+  padding: 0;
 }
 
 .nav{
@@ -16,6 +16,7 @@ body{
   max-width: 100vw;
   /* margin: 0 auto; */
   border-bottom: 1px solid #3D6CB9;
+  /* box-shadow: 0px 3px 25px rgba(0,0,0,0.2); */
 }
 
 .nav h1{
@@ -63,4 +64,67 @@ body{
 .container .desc{
   max-width: 70%;
   font-size: 1.3em;
+}
+
+.blog-cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-tile{
+  padding: 1.2em;
+  margin: 1.2em;
+  width: 30%;
+  text-align: center;
+  border-radius: 2em;
+  color: #3D6CB9;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.blog-tile:hover{
+  background-color: #00D1FF;
+  box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+  transform: scale(1.05,1.05);
+}
+
+.del-button {
+  background-color: #3D6CB9;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .8em;
+  border-radius: 3em;
+  cursor: pointer;
+  transition: 0.2s
+}
+
+.del-button:hover{
+  background-color: #FF4C29;
+}
+
+h1, h3{
+  text-align: center;
+  color: #3D6CB9;
+}
+
+.blog-heading {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.blog-author {
+  text-align: center;
+  color: #3D6CB9;
+}
+
+.blog-body {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.5em;
+  color: #043077;
 }
