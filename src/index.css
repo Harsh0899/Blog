@@ -97,10 +97,10 @@ body{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: .8em;
+  font-size: 1em;
   border-radius: 3em;
   cursor: pointer;
-  transition: 0.2s
+  transition: 0.2s;
 }
 
 .del-button:hover{
@@ -110,6 +110,12 @@ body{
 h1, h3{
   text-align: center;
   color: #3D6CB9;
+}
+
+.blog-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .blog-heading {
@@ -127,4 +133,52 @@ h1, h3{
   padding: 1em;
   font-size: 1.5em;
   color: #043077;
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 1.3em;
+  color: #3D6CB9;
+  margin-bottom: 10px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #043077;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.not-found {
+  text-align: center;
+}
+
+.gohome{
+  background-color: #00D1FF;
+  border-radius: 3em;
+  transition: 0.2s;
+  text-decoration: none;
+  padding: .5em;
+}
+
+.gohome:hover{
+  color: white;
+  background-color: #3D6CB9;
 }
