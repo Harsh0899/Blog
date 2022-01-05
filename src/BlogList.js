@@ -10,7 +10,6 @@ const BlogList= (props) =>{
                     <h1>{blog.title}</h1>
                     <h3>{blog.body.slice(0,50)+"..."}</h3>
                     <h5>{blog.author}</h5>
-                    <button className="del-button">Remove</button>
                 </Link>
             )) }
         </div>
